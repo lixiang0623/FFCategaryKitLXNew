@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FFCategaryKitLXNew_Example' do
+  pod 'FFCategaryKitLXNew', :path => '../'
+
+  target 'FFCategaryKitLXNew_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
