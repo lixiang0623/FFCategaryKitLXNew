@@ -1,0 +1,6 @@
+framework module FFCategaryKitLXNew {
+  umbrella header "FFCategaryKitLXNew-umbrella.h"
+
+  export *
+  module * { export * }
+}
